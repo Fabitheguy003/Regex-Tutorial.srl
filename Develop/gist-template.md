@@ -152,9 +152,17 @@ However, it is possible to specify a lazy match using the ? quantifier. For exam
 ## Boundaries
 &nbsp;
 
+Boundaries are used to match specific positions that are not characters, such as the beginning or end
 
+&nbsp;
 
 ## Back-references
+&nbsp;
+
+
+
+
+&nbsp;
 
 ## Look-ahead and Look-behind
 
