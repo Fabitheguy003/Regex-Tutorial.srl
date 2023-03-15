@@ -83,17 +83,25 @@ The OR operator is represented by the vertical bar | Using OR in regex, you can 
 ## OR Operator
 &nbsp;
 
-An individual character can be matched against a group of characters by using a character class. Square brackets  [ ] ~ are used to specify a character class. A regex matching any lowercase vowel might look like this:
+The OR operator is represented by the vertical bar | Using OR in regex, you can match either a term or expression. For example, this regex matches one of the terms, "cat" or "dog".
 
-/[aeiou]/
+/cat | dog/
+
 
 &nbsp;
 
 ## Character Classes
 &nbsp;
 
+An individual character can be matched against a group of characters by using a character class. Square brackets  [ ] ~ are used to specify a character class. A regex matching any lowercase vowel might look like this:
+
+/[aeiou]/
+
+&nbsp;
 
 ## Flags
+&nbsp;
+
 
 ## Grouping and Capturing
 
