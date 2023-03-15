@@ -123,7 +123,15 @@ After the last slash /, flags are added. For example, the following regex matche
 ## Grouping and Capturing
 &nbsp;
 
+Subpatterns are grouped together and specific parts of matches are extracted using grouping and capturing. Parentheses " () " are used to group subpatterns. As an example, the following regex captures usernames and domains from email addresses:
+
+/^([a-zA-Z0-9._-]+)@([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/
+
+&nbsp;
+
 ## Bracket Expressions
+&nbsp;
+
 
 ## Greedy and Lazy Match
 
