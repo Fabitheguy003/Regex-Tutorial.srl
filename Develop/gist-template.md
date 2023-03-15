@@ -21,8 +21,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-
-
+&nbsp;
 * Anchors: ^ and $ match the start and end of a line respectively.
 
 * Quantifiers: *, +, ?, {n}, {n,}, and {n,m} specify the number of times a character or group of characters should occur.
@@ -45,32 +44,68 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 * Look-ahead and look-behind: (?=...), (?!...), (?<=...), and (?<!...) match patterns only if they are followed or preceded by another pattern without including the pattern in the match.
 
+&nbsp;
 
-### Anchors
+## Anchors
+&nbsp;
+
+Anchors are used to match specific positions in the text. In these cases, the caret anchor is used to indicate the start of a line, while the dollar sign anchor is used to indicate the end of a line.
+
+&nbsp;
+
+## Quantifiers
+&nbsp;
+
+The quantifier is used when a character or group of characters should appear multiple times. Quantifiers most commonly used
+
+&nbsp;
 
 
+‘*’ : Matches zero or more occurrences of
+the preceding character.
 
-### Quantifiers
+‘+’; Matches one or more occurrences of the preceding character.
+
+‘?’ : Matches zero or one occurrence of the preceding character.
+
+‘{n}’ : Matches exactly n occurrences of the preceding character.
+
+‘{n,}’ : Matches exactly n occurrences of the preceding character.
+
+‘{n,m}’: Matches between n and m occurrences of the preceding character.
+
+The OR operator is represented by the vertical bar | Using OR in regex, you can match either a term or expression. For example, this regex matches one of the terms, "cat" or "dog".
+
+/cat | dog/
+
+&nbsp;
+
+## OR Operator
+&nbsp;
+
+An individual character can be matched against a group of characters by using a character class. Square brackets  [ ] ~ are used to specify a character class. A regex matching any lowercase vowel might look like this:
+
+/[aeiou]/
+
+&nbsp;
+
+## Character Classes
+&nbsp;
 
 
+## Flags
 
-### OR Operator
+## Grouping and Capturing
 
-### Character Classes
+## Bracket Expressions
 
-### Flags
+## Greedy and Lazy Match
 
-### Grouping and Capturing
+## Boundaries
 
-### Bracket Expressions
+## Back-references
 
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+## Look-ahead and Look-behind
 
 ## Author
 
