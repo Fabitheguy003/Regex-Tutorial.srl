@@ -22,9 +22,37 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
+
+* Anchors: ^ and $ match the start and end of a line respectively.
+
+* Quantifiers: *, +, ?, {n}, {n,}, and {n,m} specify the number of times a character or group of characters should occur.
+
+* OR operator: | matches either one expression or another.
+
+* Character classes: [] match a single character from a group of characters.
+
+* Flags: g, i, m, u, and y modify the behavior of the regex.
+
+* Grouping and capturing: () group subpatterns together and extract specific parts of the match.
+
+* Bracket expressions: [] match any character within a specified range or set.
+
+* Greedy and lazy match: *, +, and ? can be made lazy by adding ?.
+
+* Boundaries: \b and \B match specific positions that are not characters.
+
+* Back-references: \n refer to a previously matched group in the regex.
+
+* Look-ahead and look-behind: (?=...), (?!...), (?<=...), and (?<!...) match patterns only if they are followed or preceded by another pattern without including the pattern in the match.
+
+
 ### Anchors
 
+By Fabien Mukungu Acina
+
 ### Quantifiers
+
+
 
 ### OR Operator
 
