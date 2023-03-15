@@ -1,10 +1,11 @@
 # Mac's Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+In this tutorial, each part of the regular expression is explained and how it works, so that you understand how it works.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regular expressions are powerful tools that allow us to match patterns in text. Understanding the different components of regex is essential to use them effectively. In this tutorial, we covered anchors, quantifiers, OR operator, character classes, flags, grouping and capturing, bracket expressions, greedy and lazy match, boundaries, back-references, look-ahead, and look-behind. Remember to test your regex thoroughly and use online regex testers to debug and refine your regex.
+
 
 ## Table of Contents
 
