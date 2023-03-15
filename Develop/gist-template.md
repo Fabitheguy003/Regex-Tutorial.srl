@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Mac's Regex Tutorial
 
 Introductory paragraph (replace this with your text)
 
@@ -165,16 +165,23 @@ Back-references are used to refer to a previously matched group in the regex. Th
 
 * The groups capture individual letters, and the back-reference \4\3\2\1 matches the exact same letters in reverse order.
 
-
-
-
-
 &nbsp;
 
 ## Look-ahead and Look-behind
+
 &nbsp;
 
+Look-ahead and look-behind are used to match a pattern only if it is followed or preceded by another pattern without including the pattern in the match. The syntax for look-ahead is (?=...), and the syntax for negative look-ahead is (?!...). For example, the following regex matches any string that is followed by "world":
 
+/Hello(?= world)/
+
+
+The syntax for look-behind is (?<=...), and the syntax for negative look-behind is (?<!...). For example, the following regex matches any string that is preceded by "hello":
+
+
+/(?<=hello )world/
+
+&nbsp;
 
 ## Author
 
