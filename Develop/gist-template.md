@@ -159,12 +159,22 @@ Boundaries are used to match specific positions that are not characters, such as
 ## Back-references
 &nbsp;
 
+Back-references are used to refer to a previously matched group in the regex. The backslash \ followed by a number n matches the same text as the nth group. For example, the following regex matches a palindrome:
+
+/(\w)(\w)?(\w)?(\w)?\4\3\2\1/
+
+* The groups capture individual letters, and the back-reference \4\3\2\1 matches the exact same letters in reverse order.
+
+
 
 
 
 &nbsp;
 
 ## Look-ahead and Look-behind
+&nbsp;
+
+
 
 ## Author
 
