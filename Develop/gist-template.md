@@ -132,10 +132,27 @@ Subpatterns are grouped together and specific parts of matches are extracted usi
 ## Bracket Expressions
 &nbsp;
 
+Bracket expressions are used to match any character within a specified range or set. For example, the following regex matches any digit:
+
+/[0-9]/
+
+&nbsp;
 
 ## Greedy and Lazy Match
+&nbsp;
+
+By default, regex matching is greedy, which means it will match as much as possible.
+However, it is possible to specify a lazy match using the ? quantifier. For example, the following regex matches the first occurrence of "foo" followed by "bar":
+
+/foo.*?bar/
+
+
+&nbsp;
 
 ## Boundaries
+&nbsp;
+
+
 
 ## Back-references
 
