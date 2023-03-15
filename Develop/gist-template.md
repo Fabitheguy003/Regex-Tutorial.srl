@@ -102,8 +102,26 @@ An individual character can be matched against a group of characters by using a 
 ## Flags
 &nbsp;
 
+Flags are used to modify the behavior of a regex. The most common flags include:
+
+"g': Matches all occurrences of the pattern.
+
+"i : Matches regardless of case.
+
+m': Treats the string as multiple lines.
+
+"u: Treats the pattern and input as unicode.
+
+• 'y': Matches starting at the last match position.
+
+After the last slash /, flags are added. For example, the following regex matches all occurrences of the word "the" regardless of case: 
+
+/the/gi
+
+&nbsp;
 
 ## Grouping and Capturing
+&nbsp;
 
 ## Bracket Expressions
 
